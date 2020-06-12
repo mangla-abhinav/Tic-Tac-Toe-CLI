@@ -9,7 +9,7 @@ int checkForWin();
 void displayBoard();
 void markBoard(char mark);
 
-int main()
+void main()
 {
     int gameStatus;
 
@@ -46,8 +46,7 @@ int main()
         printf("\n\n==>\aPlayer %d wins \n\n", --player);
     else
         printf("\n\n==>\aGame Draw\n\n");
-
-    return 0;
+    getch();
 }
 
 /*FUNCTION TO RETURN GAME STATUS
