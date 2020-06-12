@@ -43,9 +43,9 @@ void main()
     }while (gameStatus == -1);
 
     if (gameStatus == 1)
-        printf("\n\n==>\aPlayer %d wins \n\n", --player);
+        printf("\n\n==>\aPlayer %d wins \n\nPress any key to exit.\n\n", --player);
     else
-        printf("\n\n==>\aGame Draw\n\n");
+        printf("\n\n==>\aGame Draw\n\nPress any key to exit.\n\n");
     getch();
 }
 
